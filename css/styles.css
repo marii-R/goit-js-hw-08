@@ -1,61 +1,19 @@
-body {
-    margin: 0;
-    padding: 0;
-    font-family: "Montserrat", sans-serif;
-    background-color: #f0f0f0;
-}
 
-.page-header {
-    background-color: #333;
-    padding: 20px 0;
-}
-
-
-.container {
-    width: 80%;
-    margin: 0 auto;
-    max-width: 1200px;
-}
-
-
-.menu {
+.gallery {
     list-style: none;
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
     justify-content: center;
-    gap: 20px;
-    padding: 0;
-    margin: 0;
+    max-width: 1128px;
+    margin: auto;
+    gap: 24px;
+    
 }
 
-
-.menu-item {
-    position: relative;
-}
-
-
-.menu-link {
-    color: #fff;
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: 500;
-    text-transform: uppercase;
-    padding: 10px 15px;
-    border-radius: 4px;
+.gallery-image {
     display: block;
-    transition: all 0.3s ease;
-}
-
-
-.menu-link:hover {
-    background-color: #4e75ff;
-    color: #fff;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-    transform: translateY(-3px);
-}
-
-
-.menu-link:focus,
-.menu-link:active {
-    outline: none;
-    background-color: #6c8cff;
+    width: 360px;
+    height: 100%;
+    
 }
